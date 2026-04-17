@@ -1,0 +1,16 @@
+name: Generating ASCII ARTWORK VIA SCRIPT
+
+on:
+  push
+
+jobs:
+  ascii_job_via_script:
+    runs-on: ubuntu:latest
+    - steps:
+      uses: actions/checkout@v6
+
+    - name: Executing Shell SCRIPT
+      run: bash ascii-script.sh 
+
+    - name: List Repo Files
+      run: ls -al
