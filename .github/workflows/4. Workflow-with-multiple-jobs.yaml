@@ -1,4 +1,4 @@
-name: Genarate ASCII ARTWORK
+name: 4. Workflow with Multiple Jobs
 
 on:
   push
